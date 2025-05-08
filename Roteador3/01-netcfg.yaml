@@ -1,0 +1,10 @@
+network:
+	version: 2
+	renderer: networkd
+	ethernets:
+		enp0s3:
+			addresses: 192.168.102.2/24
+		enp0s8:
+			addresses: 192.168.104.2/24
+		enp0s9:
+			addresses: 192.168.103.1/24
